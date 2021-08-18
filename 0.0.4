@@ -1,0 +1,71 @@
+#0.0.4 tf and you 
+#Required: NN
+import tensorflow as tf
+import numpy as np
+import math
+import matplotlib.pyplot as plt
+import os
+from collections import Counter, defaultdict
+
+c = tf.Graph()
+with c.as_default():
+    with tf.device("/CPU:0"):
+        #print("#1.0.0.0.0.0")
+        #with tf.Session(config=tf.ConfigProto(log_device_placement=False)) as sess:
+        sess = tf.InteractiveSession()
+        #print(sess.run(input_data))
+        #print(sess.run(label))
+        #y = []
+        #x = sess.run(input_data)
+        #label = sess.run(label)
+        #print(y)
+        #print(x)
+        #y = [0]*10
+        #x = [0]*10
+        #y_count = []
+        #x_count = []
+        #len(x)
+        #print(y)
+        #print(x)
+        #print(len(x))
+        #print(len(y))
+        #y_label = []
+            #x_label = []
+        #x = np.arange(0, 5)
+        #label = np.array([0,1,2,3,4])
+
+        #for i in x:
+        #    y_count.append(i)
+        #for i in label:
+        #    x_count.append(i)
+        #print(x)
+        #print(label)
+
+        #predict_num = (len(x_label))
+        #predict_label = np.zeros(predict_num)
+          #for i in x:
+        #    predict_label[int(x_label.index(i))] += 1
+        #print(predict_label)
+        #for i in label:
+        #    predict_label[int(y_label.index(i))] += 1
+        #print(predict_label)
+        #score = np.array([sum(predict_label)/sum(y_label)])
+        #print(score)
+
+        ## print(x_count,y_count)
+
+        #predict_label = 0
+             #for i in x:
+        #    predict_label[int(x_label.index(i))] += 1
+        #print(predict_label)
+        #for i in label:
+        #    predict_label[int(y_label.index(i))] += 1
+        #print(predict_label)
+        #score = np.array([sum(predict_label)/sum(y_label)])
+        #print(score)
+
+        ################################################################        
+        #print('label x_label ', x_label,y_label)
+
+        #########################################################################
+        #### train_model(x,y,labels)  
